@@ -2,7 +2,7 @@ import os
 import psycopg2
 import logging
 import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, filters
 
 
 BOT_TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
