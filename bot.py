@@ -123,3 +123,6 @@ if __name__ == '__main__':
                          webhook_url=f"https://{os.environ['HEROKU_APP_NAME']}.herokuapp.com/{BOT_TOKEN}")
 
     updater.idle()
+
+if __name__ == '__main__':
+    main()
