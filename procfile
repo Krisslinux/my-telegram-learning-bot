@@ -1,1 +1,1 @@
-web: gunicorn bot:updater
+web:gunicorn bot:updater
